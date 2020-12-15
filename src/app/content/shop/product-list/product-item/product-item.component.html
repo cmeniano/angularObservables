@@ -1,0 +1,16 @@
+<div class="col-12">
+        <div class="row">
+            <div class="col-5 pb-4">
+                <img src="{{hero?.image}}" alt="" class="img-thumbnail">
+            </div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>{{hero?.name}}</h3>
+                        <br>
+                        <button class="btn btn-dark" type="button" [routerLink] = "'product/' + hero?.id + '/view'">click for more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>

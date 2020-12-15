@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-6">
+                <img src="" alt="" class="img-thumbnail" src="{{selectedProduct?.image || 'https://via.placeholder.com/150'}}">
+            </div>
+            <div class="col-6">
+                <h2>{{selectedProduct?.name || 'Product Name'}}</h2>
+                <p>{{selectedProduct?.description || 'Product description'}}</p>
+                <strong>{{selectedProduct?.price || 'Product Price'}}</strong>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-dark" routerLink="/shop"> Continue Shopping</button>
+           
+        </div>
+    </div>
+</div>
